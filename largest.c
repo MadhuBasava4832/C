@@ -69,19 +69,19 @@
 
 //Given a positive integer N, find sum of its digits.
 
-#include <stdio.h>
-
-int main() {
-    int n;
-    scanf("%d", &n);
-    // Complete the code
-    int sum=0;
-    while(n>0){
-        sum+=n%10;
-        n=n/10;
-    }
-    printf("%d",sum);
-}
+//#include <stdio.h>
+//
+//int main() {
+//    int n;
+//    scanf("%d", &n);
+//    // Complete the code
+//    int sum=0;
+//    while(n>0){
+//        sum+=n%10;
+//        n=n/10;
+//    }
+//    printf("%d",sum);
+//}
 
 
 
